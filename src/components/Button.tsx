@@ -8,12 +8,17 @@ type ButtonProps = React.DetailedHTMLProps<
 	variant: "primary" | "secondary"
 }
 
-const commonStyles = "rounded-full px-4 py-3 text-secondary font-semibold"
+const commonStyles = "rounded-full px-8 py-3 text-secondary font-semibold"
 
 function Button({ variant, ...props }: ButtonProps) {
 	switch (variant) {
 		case "primary":
-			return <button className={clsx(commonStyles, "bg-primary")} {...props} />
+			return (
+				<button
+					className={clsx(commonStyles, "border-2 border-primary bg-primary")}
+					{...props}
+				/>
+			)
 		case "secondary":
 			return (
 				<button
