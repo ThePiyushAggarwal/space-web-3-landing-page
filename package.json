@@ -2,6 +2,10 @@
   "name": "tassets-space-web-3-challenge",
   "private": true,
   "version": "0.0.0",
+  "author": {
+    "name": "Piyush Aggarwal",
+    "email": "web.piyushaggarwal@gmail.com"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
