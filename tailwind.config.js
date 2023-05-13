@@ -6,6 +6,7 @@ export default {
 			colors: {
 				primary: "rgb(68, 38, 242)",
 				secondary: "rgb(255, 255, 255)",
+				ternary: "rgb(255, 255, 255, 0.5)",
 			},
 		},
 	},
