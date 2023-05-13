@@ -3,5 +3,27 @@
 @tailwind utilities;
 
 :root {
-	background-color: rgb(29, 26, 38);
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+	background: radial-gradient(
+			ellipse at right 35% top 35%,
+			rgb(148, 53, 156),
+			rgb(29, 26, 38),
+			rgb(29, 26, 38)
+		)
+		no-repeat;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+#root {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	max-width: 1500px;
+	min-width: 320px;
 }
