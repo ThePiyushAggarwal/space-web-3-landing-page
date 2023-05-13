@@ -26,4 +26,5 @@ body {
 	flex-direction: column;
 	max-width: 1280px;
 	min-width: 320px;
+	padding: 0 1rem;
 }

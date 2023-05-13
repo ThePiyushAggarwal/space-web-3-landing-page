@@ -6,7 +6,7 @@ function onClick() {
 
 function Header() {
 	return (
-		<header className="grid h-24 grid-cols-6 items-center gap-4">
+		<header className="grid h-24 items-center gap-4 md:grid-cols-6">
 			{/* Brand Logo */}
 			<div className="col-span-1">
 				<button
