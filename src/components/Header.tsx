@@ -27,7 +27,7 @@ function Header() {
 					<button
 						key={key}
 						onClick={onClick}
-						className="text-lg font-bold uppercase"
+						className="text-lg font-bold uppercase hover:scale-95"
 					>
 						{item}
 					</button>

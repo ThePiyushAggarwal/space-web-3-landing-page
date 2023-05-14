@@ -8,7 +8,8 @@ type ButtonProps = React.DetailedHTMLProps<
 	variant: "primary" | "secondary"
 }
 
-const commonStyles = "rounded-full px-8 py-3 text-secondary font-semibold"
+const commonStyles =
+	"rounded-full px-8 py-3 text-secondary font-semibold hover:scale-95 hover:opacity-90"
 
 function Button({ variant, ...props }: ButtonProps) {
 	switch (variant) {
