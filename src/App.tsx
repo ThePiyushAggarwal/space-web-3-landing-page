@@ -3,6 +3,7 @@ import { DropdownNavigation } from "./components/DropdownNavigation"
 import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { HeroSection } from "./components/HeroSection"
+import { StatisticsSection } from "./components/StatisticsSection"
 import { isMenuOpenAtom } from "./components/jotaiAtoms"
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 			<Header />
 			{isMenuOpen && <DropdownNavigation />}
 			<HeroSection />
+			<StatisticsSection />
 			<Footer />
 		</>
 	)
