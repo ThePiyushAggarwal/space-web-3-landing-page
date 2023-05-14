@@ -1,4 +1,5 @@
 import { useAtom } from "jotai"
+import { AboutUs } from "./components/AboutUs"
 import { DropdownNavigation } from "./components/DropdownNavigation"
 import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
@@ -15,6 +16,7 @@ function App() {
 			{isMenuOpen && <DropdownNavigation />}
 			<HeroSection />
 			<StatisticsSection />
+			<AboutUs />
 			<Footer />
 		</>
 	)
