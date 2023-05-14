@@ -7,6 +7,7 @@ export default {
 				primary: "rgb(68, 38, 242)",
 				secondary: "rgb(255, 255, 255)",
 				ternary: "rgb(255, 255, 255, 0.5)",
+				"primary-bg": "rgb(29, 26, 38)",
 			},
 		},
 	},
